@@ -1,0 +1,39 @@
+.slide{
+    width: 960px;
+    height: 540px;
+    background: url("../images/backgraund.jpg") no-repeat;
+    padding: 5px 25px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #F3BE60;
+    font-size: 35px;
+}
+
+ol{
+    color: white;
+    font-size: 30px;
+    list-style-image: url("../images/square.jpg");
+ }
+
+.tags{
+    color: #F3BE60;
+}
+
+.list-content {
+    display: block;
+    width: 750px;
+    height: auto;
+    border: solid white 1px;
+    background-color: #20201E;
+    opacity: 0.8;
+    font-size: 22px;
+    color: #FBEEC9;
+    margin: 12px;
+    padding: 5px;
+}
+
+.left-margin{
+    margin-left: 25px;
+}

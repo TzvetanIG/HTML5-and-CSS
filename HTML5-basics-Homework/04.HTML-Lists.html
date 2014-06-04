@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML Lists</title>
+    <link href="styles/04.HTML-Lists.css" rel="stylesheet">
+</head>
+<body>
+    Preceding text
+    <ol class="list-upper-roman">
+        <li>
+            List Item 1
+            <ol class="list-lower-alpha">
+               <li>Nested Item 1.1</li>
+               <li>Nested Item 1.2</li>
+            </ol>
+        </li>
+        <li>
+            List Item 2
+            <ol>
+                <li>Nested Item 2.1</li>
+                <li>
+                    Nested Item 2.2
+                    <ol class="list-circle">
+                        <li>Nested Item 2.2.1</li>
+                        <li>
+                            Nested Item 2.2.2
+                            <ol class="list-square">
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                            </ol>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                    </ol>
+                </li>
+                <li>Nested Item 2.3</li>
+            </ol>
+        </li>
+        <li>
+            List Item 3
+            <ol class="list-disc">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.2</li>
+                <li>Nested Item 3.3</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>

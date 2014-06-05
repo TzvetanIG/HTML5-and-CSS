@@ -1,0 +1,19 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+table{
+    width: 450px;
+    border: solid 1px;
+    align-content: center;
+}
+
+div{
+    font-size: 18px;
+    width: 200px;
+
+}
+.bold{
+    font-weight: bold;
+  }

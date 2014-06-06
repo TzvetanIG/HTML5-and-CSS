@@ -2,9 +2,44 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Website Header</title>
+    <link href="css/04.Website-Header.css" rel="stylesheet">
 </head>
 <body>
-
+    <table class="header">
+        <colgroup>
+            <col>
+        </colgroup>
+        <tr>
+            <td rowspan="2">
+                <a href="https://softuni.bg/">
+                    <img src="images/Logo.JPG" alt="SoftUni Logo" width="274" height="78">
+                </a>
+            </td>
+            <td>
+                 <ul>
+                    <a href="#" class="menu-link"> USER <strong class="caret"></strong></a>
+                 </ul>
+                <form action="04.Website-Header.html">
+                    <input type="text"/>
+                    <button class="searchButton" type="submit"><img src="images/search.png" width="15" height="15"></button>
+                </form>
+            </td>
+        </tr>
+        <tr>
+           <td>
+               <a class="menu-link" href="https://softuni.bg/news">NEWS</a>
+               <ul>
+                   <a class="menu-link" href="#">ABOUT THE UNIVERSITY<strong class="caret"></strong></a>
+               </ul>
+               <ul>
+                   <a class="menu-link" href="#">TRAINING COURSES<strong class="caret"></strong></a>
+               </ul>
+               <a class="menu-link" href="https://softuni.bg/companies">FOR COMPANIES</a>
+               <a class="menu-link" href="https://softuni.bg/forum">FORUM</a>
+               <a class="menu-link" href="https://softuni.bg/contacts">CONTACTS</a>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

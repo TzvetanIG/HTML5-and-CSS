@@ -1,0 +1,63 @@
+.header{
+    background: #234465;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+td{
+    height: 50px;
+    text-align: right;
+}
+
+table col:nth-child(1){
+    width: 300px;
+}
+
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+a:hover, a:link, a:active, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+/* menu */
+ul, form{
+    display: inline-block;
+    padding: 0;
+}
+
+.menu-link{
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.menu-link:hover{
+    background-color: #438CC1;
+}
+
+ul:hover li{
+    display: block;
+}
+
+li{
+    list-style-type: none;
+    display: none;
+    text-align: left;
+}
+
+.searchButton:hover{
+    background: #FF9C00;
+    cursor: pointer;
+}

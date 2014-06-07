@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="css/07.Calculator.css" rel="stylesheet">
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4" >
+            <input id="screen" type="text" readonly/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button  onclick="calculator.addChar(this.innerHTML)">1</button>
+        </td>
+        <td>
+            <button  onclick="calculator.addChar(this.innerHTML)">2</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">3</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">+</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">4</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">5</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">6</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">-</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">7</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">8</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">9</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">*</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="calculator.clearScr()">C</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">0</button>
+        </td>
+        <td>
+            <button onclick="calculator.printResult()">=</button>
+        </td>
+        <td>
+            <button onclick="calculator.addChar(this.innerHTML)">/</button>
+        </td>
+    </tr>
+</table>
+<script src="js/calculator.js"></script>
+
+</body>
+</html>

@@ -17,8 +17,15 @@ Calculator.prototype.addChar = function(symbol){
 }
 
 Calculator.prototype.printResult = function(){
-    this.calculatorScreen.value = eval(this.expresion);
-    this.expresion = "0";
+    try {
+        this.calculatorScreen.value = eval(this.expresion);
+    }
+    catch(e) {
+        this.calculatorScreen.value = "Error";
+    } finally{
+        this.expresion = "0";
+    }
+
 }
 
 Calculator.prototype.clearScr = function(){

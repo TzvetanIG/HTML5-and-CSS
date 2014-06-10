@@ -32,29 +32,38 @@ a:hover, a:link, a:active, a:visited{
 }
 
 /* menu */
-ul, form{
+.menu, form{
     display: inline-block;
-    padding: 0;
-}
-
-.menu-link{
     padding: 5px;
-    margin: 5px;
-    font-weight: bold;
+    margin-left: 20px;
 }
 
-.menu-link:hover{
+
+.menu:hover {
     background-color: #438CC1;
+    border-radius: 5px;
 }
 
 ul:hover li{
     display: block;
 }
 
-li{
+.sub-menu {
+    background: #234465;
+    width: 150px;
     list-style-type: none;
     display: none;
+    position: absolute;
+    top: 103px;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     text-align: left;
+    border: solid 1px white;
+}
+
+.menu:hover .sub-menu {
+    display: block;
 }
 
 .searchButton:hover{

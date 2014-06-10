@@ -15,6 +15,10 @@ table col:nth-child(1){
     width: 300px;
 }
 
+a{
+    display: block;
+}
+
 .caret {
     display: inline-block;
     width: 0px;
@@ -42,10 +46,7 @@ a:hover, a:link, a:active, a:visited{
 .menu:hover {
     background-color: #438CC1;
     border-radius: 5px;
-}
-
-ul:hover li{
-    display: block;
+    position: relative;
 }
 
 .sub-menu {
@@ -54,16 +55,34 @@ ul:hover li{
     list-style-type: none;
     display: none;
     position: absolute;
-    top: 103px;
-    padding: 5px;
+    /*top: px;*/
+    padding: 0px;
+    margin-top: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     text-align: left;
-    border: solid 1px white;
 }
 
 .menu:hover .sub-menu {
     display: block;
+}
+
+.sub-menu li{
+    border-bottom: solid 1px white;
+    padding: 5px;
+}
+
+.sub-menu li:last-child{
+    border-bottom: none;
+}
+
+.sub-menu li:hover{
+    background: #FF9C00;
+}
+.sub-menu li:last-child:hover{
+    background: #FF9C00;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .searchButton:hover{

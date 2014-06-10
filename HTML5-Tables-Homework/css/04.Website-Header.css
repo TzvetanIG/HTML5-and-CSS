@@ -40,6 +40,7 @@ a:hover, a:link, a:active, a:visited{
     display: inline-block;
     padding: 5px;
     margin-left: 20px;
+    list-style-type: none;
 }
 
 
@@ -51,7 +52,7 @@ a:hover, a:link, a:active, a:visited{
 
 .sub-menu {
     background: #234465;
-    width: 150px;
+    width: 200px;
     list-style-type: none;
     display: none;
     position: absolute;

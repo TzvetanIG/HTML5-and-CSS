@@ -1,0 +1,66 @@
+form {
+    background: #FFC0CB;
+    font-family: "Segoe UI", "Helvetica", "Calibri", San-serif;
+    border: solid 1px;
+    display: inline-block;
+    padding: 10px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+label {
+    font-style: italic;
+    display: block;
+    margin-bottom: 3px;
+}
+
+label[for="prefer-directs"] {
+    display: inline;
+}
+
+input, select {
+    width: 200px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+form div div {
+    margin: 0px;
+}
+
+.time-interval {
+    display: block;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+input[type="time"] {
+    width: 95px;
+    display: inline;
+}
+
+input[type="submit"] {
+    height: 30px;
+    margin-bottom: 0;
+}
+
+input#prefer-directs {
+    width: auto;
+    display: inline-block;
+}
+
+select#from-city {
+    margin-bottom: 33px;
+}

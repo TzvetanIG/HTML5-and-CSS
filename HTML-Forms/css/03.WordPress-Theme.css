@@ -1,0 +1,27 @@
+input{
+    height: 22px;
+}
+
+.logo{
+    width: 350px;
+    height: 85px;
+}
+
+.button{
+    height: 27px;
+    width: 27px;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+.search{
+    margin-top: 15px;
+}
+
+.search label{
+    vertical-align: bottom;
+}
+
+form div:last-child{
+    height: 30px;
+}

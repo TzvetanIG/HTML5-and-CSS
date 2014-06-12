@@ -11,11 +11,15 @@ fieldset{
     border-radius: 10px;
 }
 
-input{
+input, select{
     width: 150px;
     height: 25px;
     border-radius: 5px;
     margin: 5px;
+}
+
+select{
+    height: 30px;
 }
 
 input[type="datetime-local"]{
@@ -30,4 +34,11 @@ input[type="radio"]{
 label{
     margin-left: 5px;
     margin-right: 10px;
+}
+
+.address input{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
 }

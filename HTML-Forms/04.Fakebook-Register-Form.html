@@ -3,8 +3,44 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Fakebook Register Form</title>
+    <link href="css/04.Fakeook-Register-Form.css" rel="stylesheet">
 </head>
 <body>
+    <form action="">
+        <h1>fakebook</h1>
 
+        <h3>Registration</h3>
+
+        <div>It is safe and it will always be!</div>
+
+        <fieldset>
+            <legend>None-Important Information</legend>
+            <div>
+                <input type="text" name="first-name" placeholder="First Name"/>
+                <input type="text" name="last-name" placeholder="Last Name"/>
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Your Email"/>
+                <input type="tel" name="tel" placeholder="Phone Number"/>
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Password"/>
+                <input type="URL" name="website" placeholder="Website"/>
+            </div>
+            <div>
+                <div><label for="Birthday">Birthday</label></div>
+                <input id="Birthday" name="Birthday" type="datetime-local"/>
+            </div>
+            <div>
+                <input id="female" name="gender" type="radio" value="female"/><label for="female">Female</label>
+                <input id="male" name="gender" type="radio" value="male"/><label for="male">Male</label>
+                <input id="other" name="gender" type="radio" value="other" checked/><label for="other">Other</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+
+        </fieldset>
+    </form>
 </body>
 </html>

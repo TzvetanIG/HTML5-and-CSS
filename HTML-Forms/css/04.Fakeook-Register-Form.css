@@ -6,9 +6,30 @@ form{
     padding: 10px;
 }
 
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 100px;
+    margin: 0;
+}
+
+h1 span{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0;
+}
+
 fieldset{
     display: inline-block;
     border-radius: 10px;
+    vertical-align: top;
+    margin: 10px;
 }
 
 input, select{
@@ -29,11 +50,38 @@ input[type="datetime-local"]{
 input[type="radio"]{
     height: 15px;
     width: 15px;
+    margin-bottom: 25px;
+}
+
+.button{
+    height: 60px;
+    color: #334F96;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clear {
+    font-size: 20px;
+    width: 357px;
+}
+
+.register {
+    font-size: 25px;
+    width: 525px;
 }
 
 label{
     margin-left: 5px;
     margin-right: 10px;
+}
+
+textarea{
+    height: 48px;
+    width: 480px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+
 }
 
 .address input{

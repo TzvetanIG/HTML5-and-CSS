@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head lang="en">
     <meta charset="UTF-8">
     <title>Fakebook Register Form</title>
     <link href="css/04.Fakeook-Register-Form.css" rel="stylesheet">
 </head>
 <body>
-<form action="">
+<form action="04.Fakebook-Register-Form.html">
     <header>
         <h1>fakebook<span>&reg;</span></h1>
 
@@ -43,36 +43,36 @@
     <fieldset>
         <legend>Important Information *required</legend>
         <div>
-            <select name="country" required="true">
-                <option selected="selected">Country</option>
+            <select name="country">
+                <option>Country</option>
                 <option value="Bulgaria">Bulgaria</option>
                 <option value="England">England</option>
                 <option value="France">France</option>
             </select>
-            <input type="text" name="village" placeholder="Village" required="true">
-            <input type="text" name="district" placeholder="District" required="true">
+            <input type="text" name="village" placeholder="Village" required>
+            <input type="text" name="district" placeholder="District" required>
         </div>
         <div>
-            <input type="text" name="street" placeholder="Street" required="true">
+            <input type="text" name="street" placeholder="Street" required>
                <span class="address">
-                   <input type="text" name="nr" placeholder="Nr" required="true">
-                   <input type="text" name="floor" placeholder="Floor" required="true">
-                   <input type="text" name="apN" placeholder="Ap Nr" required="true">
+                   <input type="text" name="nr" placeholder="Nr" required>
+                   <input type="text" name="floor" placeholder="Floor" required>
+                   <input type="text" name="apN" placeholder="Ap Nr" required>
                </span>
         </div>
         <div>
             <div><label for="door-color">Door Color</label></div>
-            <input id="door-color" type="text" name="door-color" autofocus="true">
-            <input type="text" name="water-meter" placeholder="Water Meter" required="true">
-            <select name="auntPS" required="true">
-                <option selected="selected">Aunt Panties' Size</option>
+            <input id="door-color" type="text" name="door-color" autofocus>
+            <input type="text" name="water-meter" placeholder="Water Meter" required>
+            <select name="auntPS">
+                <option>Aunt Panties' Size</option>
                 <option value="Bulgaria">Bulgaria</option>
                 <option value="England">England</option>
                 <option value="France">France</option>
             </select>
         </div>
         <div><label>More Personal Information</label></div>
-        <textarea name="more-info" placeholder="Give Us More Information!!!" required="true"></textarea>
+        <textarea name="more-info" placeholder="Give Us More Information!!!" required></textarea>
     </fieldset>
     <div>
         <input class="button clear" type="reset" value="Clear Form">

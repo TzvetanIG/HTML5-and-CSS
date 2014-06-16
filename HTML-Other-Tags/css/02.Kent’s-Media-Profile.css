@@ -1,0 +1,36 @@
+.main-section {
+    background: #FFC0CB;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+meter {
+    width: 100%;
+    height: 35px;
+}
+
+.black-player {
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+audio, video{
+    display: block;
+    margin: 5px 0;
+}

@@ -1,0 +1,34 @@
+section{
+    background: black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1{
+    color: #F2C106;
+    font-size: 30px;
+    text-align: center;
+}
+
+section div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px
+}
+
+iframe{
+     border: none;
+ }
+
+a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+
+a:hover{
+    color: #FFC0CB;
+}

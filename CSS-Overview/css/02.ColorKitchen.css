@@ -168,3 +168,12 @@ article span[lang]:before, article span[lang]:after{
     /*color: #1F2DA2;*/
     content: '"';
 }
+
+article footer a{
+    font-style: italic;
+    color: #808080;
+}
+
+article footer{
+    margin-top: 5px;
+}

@@ -53,6 +53,7 @@ aside header {
 }
 
 aside ul {
+    font-size: 1.6rem;
     list-style-type: none;
     margin: 1rem;
 }
@@ -114,6 +115,7 @@ aside ul li:nth-child(6):hover {
 
 /*article styles*/
 article{
+    font-size: 1.6rem;
     margin-bottom: 10px;
     margin-left: 30px;
 }
@@ -149,6 +151,7 @@ article #HSLHSV{
 
 article #lorem{
     background: #800080;
+    margin-bottom: 15px;
 }
 
 article div:first-letter {

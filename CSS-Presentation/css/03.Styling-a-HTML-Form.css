@@ -52,6 +52,11 @@ form div input, form div textarea{
     margin-right: 130px;
 }
 
+fieldset fieldset {
+    color: #000000;
+    font-weight: normal;
+}
+
 fieldset fieldset legend{
     color: #000000;
     font-weight: normal;

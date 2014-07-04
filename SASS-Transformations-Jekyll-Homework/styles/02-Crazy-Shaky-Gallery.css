@@ -1,0 +1,68 @@
+@keyframes hover-img {
+  0% {
+    transform: rotate(0deg); }
+
+  50% {
+    transform: rotate(2deg); }
+
+  100% {
+    transform: rotate(0deg); } }
+@keyframes move-img {
+  0% {
+    position: relative;
+    top: 0;
+    left: 0; }
+
+  0% {
+    top: 50px;
+    left: 50px; }
+
+  100% {
+    po: rotate(0deg); } }
+html body {
+  background-color: #BAB9B9; }
+  html body section {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    border: solid 1px #CDCDCD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 5px #000; }
+    html body section label {
+      display: block;
+      margin: 3px;
+      cursor: pointer;
+      position: relative; }
+      html body section label:hover img {
+        animation: hover-img 0.3s; }
+      html body section label img {
+        width: 170px;
+        height: 140px;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 3px;
+        box-shadow: 0 0 2px #BAB9B9;
+        position: relative;
+        top: 0;
+        left: 0;
+        transition: 2s 2s; }
+    html body section input {
+      position: absolute;
+      visibility: hidden; }
+      html body section input:checked + label > img {
+        width: 450px;
+        height: 350px;
+        padding: 5px;
+        top: 250px;
+        left: 250px;
+        transform: rotate(0);
+        z-index: 1000; }
+      html body section input:checked + label {
+        width: 180px;
+        height: 140px;
+        border: solid 1px #94B9E9;
+        border-radius: 3px; }

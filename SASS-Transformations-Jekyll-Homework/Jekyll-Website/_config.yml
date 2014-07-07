@@ -1,0 +1,22 @@
+# Site settings
+title: "Софтуерен Университет"
+description: "Достъпно и качествено софтуерно образование"
+baseurl: ""
+url: "/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+paginate: 3
+
+# Links
+links:
+  - title: "За нас"
+    url: /about
+  - title: "Курсове"
+    url: /course
+  - title: "Новини"
+    url: /
+  - title: "Контакти"
+    url: /contacts

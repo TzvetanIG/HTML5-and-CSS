@@ -1,0 +1,141 @@
+/* reset */
+html, body, form, div, hr, h3{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body #wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#wrapper h1{
+     color: #333333;
+ }
+
+#wrapper > h1{
+    margin-bottom: 50px;
+}
+
+#wrapper section{
+    display: inline-block;
+}
+
+body form div{
+    background: #E6E6E6;
+    width: 340px;
+    display: inline-block;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+}
+
+body form{
+    width: 525px;
+    display: inline-block;
+    padding: 35px 10px 10px;
+    border: dashed 1px #CCCCCC;
+    position: relative;
+}
+
+form h3{
+    background: #666666;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: -18px;
+    border: solid 1px #333333;
+    padding: 5px;
+}
+
+
+body form label{
+    color: #9C7566;
+    display: inline-block;
+    background: #CCCCCC;
+    width: 150px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    padding: 10px 5px;
+}
+
+body form input:not([type=submit]){
+    background-color: #fff;
+    width: 90%;
+    height: 25px;
+    padding-left: 30px;
+    box-shadow: inset 2px 2px #9A9A9A;
+    background: #fff url("../images/field-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+body form input:not([type=submit]):hover, body form input:not([type=submit]):focus{
+    background: #F7F5D2 url("../images/field-icon.png") no-repeat;
+    background-position: 6px 6px;
+    cursor: pointer;
+}
+
+body form div:last-child{
+    background: #fff;
+    outline: 1px solid #CCCCCC;
+    text-align: right;
+    margin-left: 169px;
+    margin-top: 2px;
+
+}
+
+body form input.user{
+    background: #fff url("../images/username-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+body form input.password{
+    background:#fff url("../images/password-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+body form input.user:hover, body form input.user:focus{
+    background: #F7F5D2 url("../images/username-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+body form input.password:hover, body form input.password:focus{
+    background: #F7F5D2 url("../images/password-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+body form input[type=submit]{
+    color: #989070;
+    background: #E3E3DB;
+    margin-right: 25px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+hr{
+    width: 545px;
+    height: 0;
+    border-top: dashed 1px #CCCCCC;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+body #wrapper aside{
+    background: #fff;
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #D9D9D9;
+    vertical-align: top;
+}
+
+aside p{
+    color: #7D6695;
+}
+

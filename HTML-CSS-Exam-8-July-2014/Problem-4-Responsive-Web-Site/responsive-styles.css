@@ -1,0 +1,75 @@
+@media screen and (max-width: 568px ) {
+    body, .site, .site .container, .site .container .writing{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    body{
+        min-width: 100%;
+    }
+
+    .header .navigation {
+        margin: 0 auto;
+    }
+
+    .header .navigation li{
+        display: inline-block;
+    }
+
+    .banner a.title {
+        font-size: 350%;
+    }
+
+    .site .container {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    table td {
+        display: block;
+        padding-left: 10px;
+    }
+
+    table tr td:nth-child(1)::before {
+        content: "When: ";
+        display: inline-block;
+        width: 100px;
+        font-weight: bold;
+
+    }
+
+    table tr td:nth-child(2)::before {
+        content: "";
+        display: inline-block;
+        width: 100px;
+    }
+
+    table tr td:nth-child(3)::before {
+        content: "What: ";
+        display: inline-block;
+        width: 100px;
+        font-weight: bold;
+    }
+
+
+    table th {
+        display: none;
+    }
+
+
+
+    table tr:nth-child(odd) {
+        background-color: #EEEEEF;
+    }
+
+    .footer .navigation li {
+        display: block;
+    }
+}
+

@@ -1,0 +1,164 @@
+/* reset */
+html, body, header, section, h1, a, span, h5, ul, li, footer, aside, article, p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* main styles*/
+body{
+    font-family: Georgia, sans-serif;
+}
+
+body > header{
+    width: 564px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body  header h1{
+    color: #444444;
+    display: inline-block;
+    background: url("../images/site-logo.png") no-repeat left;
+    font-family: Patua One, sans-serif;
+    font-size: 45px;
+    padding: 10px 0 10px 78px;
+}
+
+body > header h5 {
+    color: #666666;
+    font-family: Georgia, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.border-top-bottom{
+    border-top: dashed 1px #AAAAAA;
+    border-bottom: dashed 1px #AAAAAA;
+}
+
+body header nav{
+    padding: 5px;
+    margin: 30px 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body header nav ul li{
+    display: inline-block;
+}
+
+body header nav ul li a{
+    color: #999999;
+    display: inline-block;
+    padding: 7px 10px;
+}
+
+body header nav ul li a:hover{
+    color: #66667B;
+}
+
+body header nav ul li:first-child a{
+    background: #EEEEEE;
+    border-radius: 5px;
+}
+
+
+body main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+body main img{
+    width: 100%;
+}
+
+body main > section{
+    display: inline-block;
+    width: 73%;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+body main section article.important{
+    color: #666666;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+body main section article.important header{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+body main section article.post{
+
+}
+
+body main section article.post header{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+
+body main aside{
+    display: inline-block;
+    width: 26%;
+    margin-top: 15px;
+}
+
+body main aside section{
+    background: #F9F9F9;
+    padding: 20px;
+    border: dashed 1px #AAAAAA;
+    margin-bottom: 20px;
+}
+
+body main aside section h3{
+    color: #666666;
+}
+
+body main aside section a{
+    color: #0093DF;
+}
+
+body main aside section a:hover{
+    text-decoration: underline;
+    color: #FF4B33;
+}
+
+body main aside section form input[type=text]{
+    width: 65%;
+}
+
+body main aside section form input[type=text]:focus{
+    outline: 1px solid #A1C3FA;;
+    border: 1px solid #8CAEE5;
+    border-radius: 3px;
+}
+
+body main aside section form input[type=submit]{
+    font-family: "Arial", "sans-serif";
+}
+
+
+footer{
+    background: #EEEEEE;
+    color: #667CB5;
+    padding: 10px;
+    border-top: solid 1px #CCCCCC;
+    text-align: center;
+}

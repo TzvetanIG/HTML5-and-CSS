@@ -71,5 +71,9 @@
     .footer .navigation li {
         display: block;
     }
+	
+	.footer{
+		height: auto;
+	}
 }
 
